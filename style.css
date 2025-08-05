@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpeg);
+  --bg-url: url(./assets/2045.jpeg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpeg);
+  --bg-url: url(./assets/2045.jpeg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -50,8 +50,8 @@ body * {
 }
 
 #profile img {
-  width: 7rem;
-  border-radius: 50%;
+  width: 9rem;
+  border-radius: 55%;
 }
 
 #profile p {
@@ -166,7 +166,7 @@ footer {
 
 @media (min-width: 43.75rem) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpeg);
+    --bg-url: url(./assets/abs.jpg);
   }
 
   .light {
